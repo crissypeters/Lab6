@@ -1,0 +1,20 @@
+.background    { background: url(https://i.imgur.com/0T0im.png);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: black;   }
+.floater       { background: #fff5c1; }
+
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); }
+
+.lost .player { background: rgb(206, 4, 4);
+}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
